@@ -5,5 +5,5 @@ ModuleName=script
 
 [script]
 ImageDir=/usr/share/plymouth/themes/vortex
-ScriptFile=/usr/share/plymouth/themes/vortex/vortex-phyOS.script
+ScriptFile=/usr/share/plymouth/themes/vortex/vortex.script
 UseFirmwareBackground=false
