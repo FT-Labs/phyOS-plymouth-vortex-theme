@@ -92,16 +92,16 @@ t=0;
 fun update ()
 {
     t++;
-    c1.SetImage(ic1.Rotate(t * 0.009));
-    c2.SetImage(ic2.Rotate(t * 0.007));
-    c3.SetImage(ic3.Rotate(t * 0.006));
-    c4.SetImage(ic4.Rotate(t * 0.0053));
-    c5.SetImage(ic5.Rotate(t * 0.0048));
-    c6.SetImage(ic6.Rotate(t * 0.004));
-    c7.SetImage(ic7.Rotate(t * 0.0035));
-    c8.SetImage(ic8.Rotate(t * 0.003));
-    c9.SetImage(ic9.Rotate(t * 0.0025));
-    c10.SetImage(ic10.Rotate(t * 0.002));
+    c1.SetImage(ic1.Rotate(t * 0.018));
+    c2.SetImage(ic2.Rotate(t * 0.014));
+    c3.SetImage(ic3.Rotate(t * 0.012));
+    c4.SetImage(ic4.Rotate(t * 0.0106));
+    c5.SetImage(ic5.Rotate(t * 0.0096));
+    c6.SetImage(ic6.Rotate(t * 0.008));
+    c7.SetImage(ic7.Rotate(t * 0.0070));
+    c8.SetImage(ic8.Rotate(t * 0.006));
+    c9.SetImage(ic9.Rotate(t * 0.0050));
+    c10.SetImage(ic10.Rotate(t * 0.004));
 }
 
 Plymouth.SetRefreshFunction (update);
